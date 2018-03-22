@@ -39,8 +39,10 @@ h4 {
   font-size:1.87em;
 }
 
-p {
-  font-size:1.5em;
+p,
+li,
+blockquote {
+  font-size:1.5rem;
 }
 
 nav div {
@@ -58,8 +60,29 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+li {
   color:#002b36;
+}
+
+.slide--green {
+  background-color: #d9ead3;
+}
+
+.slide--red {
+  background-color: #f4cccc;
+}
+
+.slide--blue {
+  background-color: #cfe2f3;
+}
+
+.slide--yellow: {
+  background-color: #fff2cc;
+}
+
+.bordered-img {
+  border: 1px solid #000000;
 }
 
 /* === Layout === */
@@ -67,6 +90,23 @@ p {
 nav div {
 	text-align:center;
 }
+
+.slide {
+  margin-top:2em;
+  padding: 1em;
+  border-radius: 25px;
+}
+
+.img-container img {
+  width:100%;
+  height:auto;
+}
+
+.hanging-indent {
+  text-indent: -1em;
+  margin-left: 1em;
+}
+
 .iframe-container {
   position:relative;
   padding-bottom: 56.25%
