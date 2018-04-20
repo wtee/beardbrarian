@@ -4,10 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Beardbrarian: About Me</title>
-    <link rel="stylesheet" href="css/normaize.min.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
     <link rel="stylesheet" href="css/yggdrasil.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
+    <meta property="og:url" content="https://beardbrarian.com/index.html" />
+    <meta property="og:title" content="Beardbrarian" />
+    <meta property="og:description" content="Library person. Code person. Friend of cats everywhere." />
+    <meta property="og:image" content="https://beardbrarian.com/img/beardbrarian_logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@beardbrarian" />
+    <meta name="twitter:creator" content="@beardbrarian" />
   </head>
   <body>
       <main class="grid">
@@ -21,11 +28,11 @@
         </header>
         <section class="off3 c6">
           <h2>About Me</h2>
-          <p>Hi there. My name's Wesley. I'm a librarian with a beard, so Beardbrarian.</p>
+          <h3>Library person. Code person. Friend of cats everywhere.</h3>
 
           <p>I currently work at <a href="http://www.lib.iastate.edu/">Parks Library</a>
             at <a href="http://www.iastate.edu/">Iowa State University</a> as a metadata librarian.
-            I earned an MLIS from the <a href="http://slis.grad.uiowa.edu/">School of Library and Information
+            I earned my MLIS from the <a href="http://slis.grad.uiowa.edu/">School of Library and Information
             Science</a> at the <a href ="http://www.uiowa.edu/">University of Iowa</a> in May 2014.</p>
 
           <p>This site is very much a work in progress.</p>
@@ -39,4 +46,23 @@
       </footer>
     </main>
   </body>
+  <script type="application/ld+json">
+    { "@context": "http://schema.org", 
+     "@type": "AboutPage",
+     "name": "Beardbrarian: About Me",
+     "image": "https://beardbrarian.com/img/beardbrarian_logo.png",
+     "author": {
+       "@type": "Person",
+       "name": "Wesley Teal"
+       }, 
+     "publisher": "Beardbrarian",
+     "genre": "http://vocab.getty.edu/aat/300266277", 
+     "keywords": "librarian, programmer, metadata", 
+     "url": "https://beardbrarian.com/index.html",
+     "datePublished": "2017-04-14",
+     "dateCreated": "2017-04-14",
+     "dateModified": "2018-04-18",
+     "description": "Library person. Code person. Friend of cats everywhere."
+     }
+    </script>
 </html>
